@@ -2,7 +2,7 @@
   "name": "react",
   "version": "0.16.2",
   "description": "React.js (JSX) language support, indentation, snippets, auto completion, reformatting",
-  "repository": "https://github.com/orktes/atom-react",
+  "repository": "https://github.com/lalomartins/atom-react",
   "homepage": "http://orktes.github.io/atom-react",
   "license": "MIT",
   "engines": {

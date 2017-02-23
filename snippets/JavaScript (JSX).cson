@@ -8,10 +8,6 @@
     prefix: "pt"
     body: "propTypes: {\n\t${1}: PropTypes.${2:string}\n},"
 
-  "React: setState({ ... })":
-    prefix: "sst"
-    body: "setState({\n\t${1}: ${2}\n});"
-
   "React: this.props.":
     prefix: "props"
     body: "this.props.${1}"
@@ -74,6 +70,10 @@
 
   "React: setState({ ... }) (ES6)":
     prefix: "sst"
+    body: "this.setState({${1}: ${2}});"
+
+  "React: setState({ ... }) (ES6, long)":
+    prefix: "sstl"
     body: "this.setState({\n\t${1}: ${2}\n});"
 
   "React: shouldComponentUpdate(np, ns) { ... } (ES6)":
